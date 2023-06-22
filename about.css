@@ -1,0 +1,41 @@
+body{
+	background-color:#0C0908;
+}
+h1{
+	font-size:xx-large;
+	color:white;
+}
+.ll{
+	background-color:white;
+}
+.kk{
+	font-size:large;
+	text-align:left;
+	color:#808080;
+	margin:10px;
+	font-weight:600;
+	font-family:verdana;
+}
+.container{
+	width:90%;
+	padding:20px;
+	margin:0 auto;
+	justify-content:left;
+	align-items:left;	
+	display:flex;
+}
+.box img{
+	width:300px;
+	border-radius:5px;
+}
+.box{
+	width:300px;
+	margin:0 10px;
+	box-shadow: 20px 20px 20px 2px rgba(0,0,0,1);
+	transition:0.8s;
+}
+.box:hover{
+	transform:scale(1.1);
+	z-index:2;
+	box-shadow:8px 8px 45px #FF0000;
+}
